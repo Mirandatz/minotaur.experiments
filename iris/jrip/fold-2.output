@@ -1,0 +1,58 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.JRip -F 3 -N 2.0 -O 2 -S 1
+Relation:     train_df
+Instances:    135
+Attributes:   5
+              att1
+              att2
+              att3
+              att4
+              att5
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+JRIP rules:
+===========
+
+(att2 <= 2.9) and (att3 <= 4.7) => att5=1 (29.0/2.0)
+(att3 >= 4.1) and (att3 <= 5) and (att4 <= 1.7) => att5=1 (17.0/0.0)
+(att3 <= 1.9) => att5=0 (44.0/0.0)
+ => att5=2 (45.0/1.0)
+
+Number of Rules : 4
+
+
+Time taken to build model: 0.02 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          12               80      %
+Incorrectly Classified Instances         3               20      %
+Kappa statistic                          0.7   
+Mean absolute error                      0.147 
+Root mean squared error                  0.3573
+Relative absolute error                 33.0805 %
+Root relative squared error             75.7946 %
+Total Number of Instances               15     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.800    0.000    1.000      0.800    0.889      0.853    0.960     0.911     0
+                 0.800    0.200    0.667      0.800    0.727      0.577    0.800     0.624     1
+                 0.800    0.100    0.800      0.800    0.800      0.700    0.800     0.707     2
+Weighted Avg.    0.800    0.100    0.822      0.800    0.805      0.710    0.853     0.747     
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 4 1 0 | a = 0
+ 0 4 1 | b = 1
+ 0 1 4 | c = 2
+
