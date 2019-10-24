@@ -1,0 +1,64 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.JRip -F 3 -N 2.0 -O 2 -S 1
+Relation:     train_df
+Instances:    614
+Attributes:   10
+              att1
+              att2
+              att3
+              att4
+              att5
+              att6
+              att7
+              att8
+              att9
+              att10
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+JRIP rules:
+===========
+
+(att3 >= 4) and (att6 >= 6) => att10=1 (134.0/4.0)
+(att2 >= 3) and (att1 >= 9) => att10=1 (33.0/0.0)
+(att3 >= 3) and (att7 >= 4) => att10=1 (37.0/5.0)
+(att6 >= 4) and (att1 >= 7) => att10=1 (6.0/0.0)
+(att4 >= 4) and (att3 >= 3) and (att6 <= 7) => att10=1 (7.0/0.0)
+(att6 >= 2) and (att5 >= 5) => att10=1 (4.0/0.0)
+ => att10=0 (393.0/3.0)
+
+Number of Rules : 7
+
+
+Time taken to build model: 0.12 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          68               98.5507 %
+Incorrectly Classified Instances         1                1.4493 %
+Kappa statistic                          0.9684
+Mean absolute error                      0.035 
+Root mean squared error                  0.1115
+Relative absolute error                  7.696  %
+Root relative squared error             23.4112 %
+Total Number of Instances               69     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.978    0.000    1.000      0.978    0.989      0.969    0.998     0.998     0
+                 1.000    0.022    0.960      1.000    0.980      0.969    0.998     0.992     1
+Weighted Avg.    0.986    0.008    0.986      0.986    0.986      0.969    0.998     0.996     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 44  1 |  a = 0
+  0 24 |  b = 1
+
