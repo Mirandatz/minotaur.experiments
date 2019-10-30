@@ -1,499 +1,514 @@
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 4 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < 4 AND 3 <= f[1] < ∞ AND 1 <= f[2] < 9 AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 1 <= f[5] < ∞ AND 1 <= f[6] < 8 AND 1 <= f[7] < 9 AND 1 <= f[8] < 5 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 4 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < 4 AND 3 <= f[1] < ∞ AND 1 <= f[2] < 9 AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 1 <= f[5] < ∞ AND 1 <= f[6] < 8 AND 1 <= f[7] < 9 AND 1 <= f[8] < 5 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 4 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < 4 AND 3 <= f[1] < ∞ AND 1 <= f[2] < 9 AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 1 <= f[5] < ∞ AND 1 <= f[6] < 8 AND 1 <= f[7] < 9 AND 1 <= f[8] < 5 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 4 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < 4 AND 3 <= f[1] < ∞ AND 1 <= f[2] < 9 AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 1 <= f[5] < ∞ AND 1 <= f[6] < 8 AND 1 <= f[7] < 9 AND 1 <= f[8] < 5 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
+IF 5 <= f[0] < 9 AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 4 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < 3 AND 1 <= f[6] < 9 AND 1 <= f[7] < 6 AND 1 <= f[8] < 2 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
+IF 5 <= f[0] < 9 AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 4 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < 3 AND 1 <= f[6] < 9 AND 1 <= f[7] < 6 AND 1 <= f[8] < 2 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
+IF 5 <= f[0] < 9 AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 4 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < 3 AND 1 <= f[6] < 9 AND 1 <= f[7] < 6 AND 1 <= f[8] < 2 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
+IF 5 <= f[0] < 9 AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 4 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < 3 AND 1 <= f[6] < 9 AND 1 <= f[7] < 6 AND 1 <= f[8] < 2 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
+IF 5 <= f[0] < 9 AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 4 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < 3 AND 1 <= f[6] < 9 AND 1 <= f[7] < 6 AND 1 <= f[8] < 2 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
+IF 5 <= f[0] < 9 AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 4 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < 3 AND 1 <= f[6] < 9 AND 1 <= f[7] < 6 AND 1 <= f[8] < 2 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
+IF 5 <= f[0] < 9 AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 4 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < 3 AND 1 <= f[6] < 9 AND 1 <= f[7] < 6 AND 1 <= f[8] < 2 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
+IF 5 <= f[0] < 9 AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 4 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < 3 AND 1 <= f[6] < 9 AND 1 <= f[7] < 6 AND 1 <= f[8] < 2 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
+IF 5 <= f[0] < 9 AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 4 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < 3 AND 1 <= f[6] < 9 AND 1 <= f[7] < 6 AND 1 <= f[8] < 2 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
+IF 5 <= f[0] < 9 AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 4 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < 3 AND 1 <= f[6] < 9 AND 1 <= f[7] < 6 AND 1 <= f[8] < 2 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
+IF 5 <= f[0] < 9 AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 4 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < 3 AND 1 <= f[6] < 9 AND 1 <= f[7] < 6 AND 1 <= f[8] < 2 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
+IF 5 <= f[0] < 9 AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 4 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < 3 AND 1 <= f[6] < 9 AND 1 <= f[7] < 6 AND 1 <= f[8] < 2 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
+IF 5 <= f[0] < 9 AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 4 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < 3 AND 1 <= f[6] < 9 AND 1 <= f[7] < 6 AND 1 <= f[8] < 2 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < 4 AND 1 <= f[1] < ∞ AND 1 <= f[2] < 9 AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 7 <= f[5] < ∞ AND 3 <= f[6] < 10 AND 1 <= f[7] < 9 AND 1 <= f[8] < 10 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 4 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 3 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 1 <= f[7] < 9 AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 9 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
+IF 1 <= f[0] < 4 AND 1 <= f[1] < ∞ AND 1 <= f[2] < 9 AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 7 <= f[5] < ∞ AND 3 <= f[6] < 10 AND 1 <= f[7] < 9 AND 1 <= f[8] < 10 THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 9 AND 2 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
-IF 5 <= f[0] < ∞ AND 4 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 10 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 9 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < 10 THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < 10 AND 1 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 3 <= f[7] < ∞ AND 1 <= f[8] < 5 THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
 ===============================================================================
-IF 1 <= f[0] < ∞ AND 2 <= f[1] < ∞ AND 2 <= f[2] < ∞ AND 2 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 6 <= f[5] < ∞ AND 3 <= f[6] < ∞ AND 1 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
-IF 2 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < 6 AND 2 <= f[6] < ∞ AND 3 <= f[7] < ∞ AND 1 <= f[8] < ∞ THEN 1
-IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < 2 AND 2 <= f[4] < ∞ AND 8 <= f[5] < ∞ AND 2 <= f[6] < 8 AND 1 <= f[7] < 10 AND 1 <= f[8] < 4 THEN 1
+IF 4 <= f[0] < ∞ AND 3 <= f[1] < ∞ AND 3 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 3 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 2 <= f[6] < ∞ AND 3 <= f[7] < ∞ AND 1 <= f[8] < 8 THEN 1
+IF 1 <= f[0] < ∞ AND 1 <= f[1] < ∞ AND 1 <= f[2] < ∞ AND 1 <= f[3] < ∞ AND 2 <= f[4] < ∞ AND 1 <= f[5] < ∞ AND 1 <= f[6] < 10 AND 1 <= f[7] < 9 AND 8 <= f[8] < ∞ THEN 1
 Default: 0
