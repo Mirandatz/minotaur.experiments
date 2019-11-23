@@ -1,11 +1,17 @@
+import platform
 from pathlib import Path
 
 from minotaur_helper import format_minotaur_args, run_minotaur
 from minotaur_helper import get_experiment_output_directory, get_minotaur_stdout_redirection_filename
 
-# Paths
-DATASETS_BASE_DIR = Path('c:/') / 'source' / 'minotaur.datasets'
-OUTPUT_BASE_DIR = Path('c:/') / 'source' / 'minotaur.output'
+if 'Windows' in platform.platform():
+    DATASETS_BASE_DIR = Path('c:/') / 'source' / 'minotaur.datasets'
+    OUTPUT_BASE_DIR = Path('c:/') / 'source' / 'minotaur.output'
+elif 'Linux' in platform.platform():
+    DATASETS_BASE_DIR = Path.home() / 'minotaur' / 'minotaur.datasets'
+    OUTPUT_BASE_DIR = Path.home() / 'minotaur' / 'minotaur.output'
+else:
+    raise NotImplemented
 
 # Experiment settings
 DATASET_NAME = "yeast"
