@@ -3,10 +3,16 @@ from pathlib import Path
 
 from typing import Dict
 
-# Paths
-MINOTAUR_PATH = Path('c:/') / 'source' / 'minotaur' / 'minotaur' / 'minotaur' / 'bin' / 'x64' / 'release'
-MINOTAUR_PATH /= 'netcoreapp3.0'
-MINOTAUR_PATH /= 'Minotaur.exe'
+import platform
+
+if 'Windows' in platform.platform():
+    MINOTAUR_PATH = Path('c:/') / 'source' / 'minotaur' / 'minotaur' / 'minotaur' / 'bin' / 'x64' / 'release'
+    MINOTAUR_PATH = MINOTAUR_PATH / 'netcoreapp3.0' / 'Minotaur.exe'
+elif 'Linux' in platform.platform():
+    MINOTAUR_PATH = Path.home() / 'minotaur' / 'minotaur.src' / 'minotaur' / 'Minotaur' / 'Minotaur' / 'bin' / 'x64'
+    MINOTAUR_PATH = MINOTAUR_PATH / 'Release' / 'netcoreapp3.0' / 'Minotaur'
+else:
+    MINOTAUR_PATH = None
 
 
 def get_dataset_paths(minotaur_args) -> Dict[str, Path]:
@@ -62,8 +68,8 @@ def format_minotaur_args(experiment_args) -> str:
     return formatted_args
 
 
-def run_minotaur(formatted_args: str, minotaur_stdout_redirection: Path):
+def run_minotaur(formatted_args: str, minotaur_stdout_redirection):
     subprocess_args = str(MINOTAUR_PATH) + ' ' + formatted_args
     print("Running MINOTAUR... ", end='')
-    subprocess.call(subprocess_args, stdout=minotaur_stdout_redirection)
+    subprocess.run(subprocess_args, stdout=minotaur_stdout_redirection)
     print("Done.")
