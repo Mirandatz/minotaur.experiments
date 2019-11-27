@@ -49,6 +49,13 @@ def run_breast_cancer_wisconsin():
         minotaur.run_minotaur(minotaur_settings)
 
 
+def run_eurovoc():
+    for minotaur_settings in _generate_dataset_settings(dataset_name='EUR-Lex (eurovoc descriptors)',
+                                                        classification_type='multilabel',
+                                                        cfsbe_values=[5]):
+        minotaur.run_minotaur(minotaur_settings)
+
+
 def main():
     args = sys.argv
     if len(args) != 2:
@@ -65,6 +72,8 @@ def main():
         run_iris()
     elif dataset_name == 'breast-cancer-wisconsin':
         run_breast_cancer_wisconsin()
+    elif dataset_name == 'eurovoc':
+        run_eurovoc()
     else:
         print("Unknown dataset")
 
