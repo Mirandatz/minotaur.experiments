@@ -33,7 +33,6 @@ def run_iris():
 def run_breast_cancer_wisconsin():
     for minotaur_settings in _generate_dataset_settings(dataset_name='breast-cancer-wisconsin',
                                                         classification_type='singlelabel',
-                                                        cfsbe_values=[2, 8, 16, 32, 64]):
                                                         cfsbe_values=[2, 8, 16, 32, 64, 128, 256]):
         minotaur.run_minotaur(minotaur_settings)
 
