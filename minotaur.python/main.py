@@ -82,13 +82,37 @@ def run_synthetic0():
 
 
 def run_synthetic1():
-    for minotaur_settings in _generate_dataset_settings(dataset_name='synthetic2', classification_type='multilabel',
+    for minotaur_settings in _generate_dataset_settings(dataset_name='synthetic1', classification_type='multilabel',
                                                         cfsbe_values=[2, 8, 16, 32, 64, 128, 256, 1024, 2048, 4096]):
         minotaur.run_minotaur(minotaur_settings)
 
 
 def run_synthetic2():
     for minotaur_settings in _generate_dataset_settings(dataset_name='synthetic2', classification_type='multilabel',
+                                                        cfsbe_values=[2, 8, 16, 32, 64, 128, 256, 1024, 2048, 4096]):
+        minotaur.run_minotaur(minotaur_settings)
+
+
+def run_synthetic3():
+    for minotaur_settings in _generate_dataset_settings(dataset_name='synthetic3', classification_type='multilabel',
+                                                        cfsbe_values=[2, 8, 16, 32, 64, 128, 256, 1024, 2048, 4096]):
+        minotaur.run_minotaur(minotaur_settings)
+
+
+def run_synthetic4():
+    for minotaur_settings in _generate_dataset_settings(dataset_name='synthetic4', classification_type='multilabel',
+                                                        cfsbe_values=[2, 8, 16, 32, 64, 128, 256, 1024, 2048, 4096]):
+        minotaur.run_minotaur(minotaur_settings)
+
+
+def run_synthetic5():
+    for minotaur_settings in _generate_dataset_settings(dataset_name='synthetic5', classification_type='multilabel',
+                                                        cfsbe_values=[2, 8, 16, 32, 64, 128, 256, 1024, 2048, 4096]):
+        minotaur.run_minotaur(minotaur_settings)
+
+
+def run_synthetic6():
+    for minotaur_settings in _generate_dataset_settings(dataset_name='synthetic6', classification_type='multilabel',
                                                         cfsbe_values=[2, 8, 16, 32, 64, 128, 256, 1024, 2048, 4096]):
         minotaur.run_minotaur(minotaur_settings)
 
@@ -109,7 +133,11 @@ def main():
                       'CAL500': run_CAL500,
                       'synthetic0': run_synthetic0,
                       'synthetic1': run_synthetic1,
-                      'synthetic2': run_synthetic2}
+                      'synthetic2': run_synthetic2,
+                      'synthetic3': run_synthetic3,
+                      'synthetic4': run_synthetic4,
+                      'synthetic5': run_synthetic5,
+                      'synthetic6': run_synthetic6}
 
     dataset_name = args[1]
 
