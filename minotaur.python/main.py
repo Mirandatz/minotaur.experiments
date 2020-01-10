@@ -75,6 +75,23 @@ def run_CAL500():
         minotaur.run_minotaur(minotaur_settings)
 
 
+def run_synthetic0():
+    for minotaur_settings in _generate_dataset_settings(dataset_name='synthetic0', classification_type='multilabel',
+                                                        cfsbe_values=[2, 8, 16, 32, 64, 128, 256, 1024, 2048, 4096]):
+        minotaur.run_minotaur(minotaur_settings)
+
+
+def run_synthetic1():
+    for minotaur_settings in _generate_dataset_settings(dataset_name='synthetic2', classification_type='multilabel',
+                                                        cfsbe_values=[2, 8, 16, 32, 64, 128, 256, 1024, 2048, 4096]):
+        minotaur.run_minotaur(minotaur_settings)
+
+
+def run_synthetic2():
+    for minotaur_settings in _generate_dataset_settings(dataset_name='synthetic2', classification_type='multilabel',
+                                                        cfsbe_values=[2, 8, 16, 32, 64, 128, 256, 1024, 2048, 4096]):
+        minotaur.run_minotaur(minotaur_settings)
+
 
 def main():
     args = sys.argv
@@ -89,7 +106,10 @@ def main():
                       'yeast': run_yeast,
                       'emotions': run_emotions,
                       'scene': run_scene,
-                      'CAL500': run_CAL500}
+                      'CAL500': run_CAL500,
+                      'synthetic0': run_synthetic0,
+                      'synthetic1': run_synthetic1,
+                      'synthetic2': run_synthetic2}
 
     dataset_name = args[1]
 
